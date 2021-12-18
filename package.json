@@ -1,0 +1,30 @@
+{
+  "name": "crypto-youtube-thumbnail-starter",
+  "version": "0.0.1",
+  "description": "Klaytn ERC721 BApp",
+  "main": "truffle-config.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "dependencies": {
+    "caver-js": "^1.0.0",
+    "spin.js": "^4.0.0",
+    "truffle": "^5.0.31",
+    "truffle-hdwallet-provider-klaytn": "^1.0.13-a"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "ipfs-http-client": "32.0.1",
+    "openzeppelin-solidity": "^2.3.0",
+    "webpack": "^4.7.0",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  }
+}
